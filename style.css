@@ -1,1 +1,299 @@
+/* style.css — полная копия стилей с сайта Heavenly Power (адаптировано) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0a0c0f;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ШАПКА */
+.header {
+    background-color: #0f1217;
+    border-bottom: 1px solid #1e2329;
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #ffd700;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.nav-menu a:hover {
+    color: #ffd700;
+}
+
+/* ГЛАВНЫЙ ЭКРАН */
+.hero {
+    padding: 80px 0 60px;
+    text-align: center;
+    background: linear-gradient(180deg, #0f1217 0%, #0a0c0f 100%);
+}
+
+.hero-title {
+    font-size: 56px;
+    font-weight: 800;
+    color: #ffd700;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    letter-spacing: 4px;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #b0b8c5;
+}
+
+/* СЕКЦИИ */
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffd700;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+/* ПРЕИМУЩЕСТВА */
+.features {
+    padding: 60px 0;
+    background-color: #0f1217;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.feature-card {
+    background-color: #1a1f26;
+    padding: 32px 24px;
+    border-radius: 16px;
+    text-align: center;
+    border: 1px solid #2a313c;
+    transition: transform 0.2s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    border-color: #ffd700;
+}
+
+.feature-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.feature-card h3 {
+    color: #ffd700;
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.feature-card p {
+    color: #b0b8c5;
+}
+
+/* СОЦИАЛЬНЫЕ СЕТИ */
+.social {
+    padding: 60px 0;
+    background-color: #0a0c0f;
+}
+
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.social-card {
+    background-color: #1a1f26;
+    padding: 30px 20px;
+    border-radius: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #2a313c;
+    transition: all 0.2s;
+}
+
+.social-card:hover {
+    border-color: #ffd700;
+    background-color: #232a34;
+}
+
+.social-icon {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.social-card h3 {
+    color: #ffd700;
+    margin-bottom: 8px;
+}
+
+.social-card p {
+    font-size: 14px;
+    color: #8e99a9;
+}
+
+/* КОНТАКТЫ */
+.contact {
+    padding: 60px 0;
+    background-color: #0f1217;
+}
+
+.contact-description {
+    text-align: center;
+    color: #b0b8c5;
+    margin-bottom: 40px;
+}
+
+.contact-card {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #1a1f26;
+    border-radius: 24px;
+    padding: 40px;
+    border: 1px solid #2a313c;
+}
+
+.manager-info {
+    text-align: center;
+}
+
+.manager-info h3 {
+    color: #ffd700;
+    font-size: 26px;
+    margin-bottom: 16px;
+}
+
+.manager-info p {
+    color: #b0b8c5;
+    margin-bottom: 24px;
+}
+
+.button {
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s;
+    margin-bottom: 12px;
+}
+
+.telegram-button {
+    background-color: #0088cc;
+    color: white;
+}
+
+.telegram-button:hover {
+    background-color: #0077b5;
+}
+
+.response-time {
+    display: block;
+    color: #6b7a8f;
+    font-size: 14px;
+}
+
+/* ПАРТНЕР */
+.partner {
+    padding: 40px 0 60px;
+    background-color: #0a0c0f;
+}
+
+.partner-card {
+    max-width: 600px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #1a1f26, #0f1217);
+    border: 1px solid #ffd700;
+    border-radius: 24px;
+    padding: 40px;
+    text-align: center;
+}
+
+.partner-card h3 {
+    color: #ffd700;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.partner-card p {
+    color: #b0b8c5;
+    margin-bottom: 24px;
+}
+
+.partner-button {
+    background-color: #ffd700;
+    color: #0a0c0f;
+    font-weight: 700;
+}
+
+.partner-button:hover {
+    background-color: #e6c200;
+}
+
+.partner-disclaimer {
+    display: block;
+    color: #6b7a8f;
+    font-size: 12px;
+    margin-top: 16px;
+}
+
+/* ПОДВАЛ */
+.footer {
+    background-color: #0f1217;
+    border-top: 1px solid #1e2329;
+    padding: 24px 0;
+    text-align: center;
+    color: #6b7a8f;
+    font-size: 14px;
+}
+
+/* АДАПТАЦИЯ */
+@media (max-width: 768px) {
+    .hero-title { font-size: 42px; }
+    .features-grid { grid-template-columns: 1fr; }
+    .social-grid { grid-template-columns: 1fr; }
+    .nav-menu { display: none; } /* Для мобильных нужно будет добавить бургер-меню */
+}
