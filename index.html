@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Soniqs - официальный сайт</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter:wght@300;400;700&family=Montserrat:wght@700;800&family=Open+Sans:wght@300;400&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Progress bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="assets/images/logo/logo.svg" alt="Team Soniqs" class="logo-img">
+            </div>
+            <nav class="nav">
+                <button class="burger-menu" id="burgerMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-list" id="navList">
+                    <li><a href="#roster" class="nav-link">Состав</a></li>
+                    <li><a href="#matches" class="nav-link">Матчи</a></li>
+                    <li><a href="#media" class="nav-link">Медиа</a></li>
+                    <li><a href="#partners" class="nav-link">Партнеры</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1 class="hero-title">TEAM SONIQS</h1>
+                <p class="hero-subtitle">"Red never fades"</p>
+                <div class="hero-buttons">
+                    <a href="#roster" class="btn btn-primary">Состав</a>
+                    <a href="#matches" class="btn btn-outline">Последние матчи</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Roster Section -->
+        <section id="roster" class="section roster">
+            <div class="container">
+                <h2 class="section-title">ИГРОКИ</h2>
+                <div class="roster-grid">
+                    <!-- Player Card 1 -->
+                    <div class="player-card">
+                        <div class="player-img">
+                            <img src="assets/images/roster/player1.jpg" alt="Player 1" class="player-img-bw">
+                            <div class="player-social">
+                                <a href="#" class="social-icon"><img src="assets/images/logo/twitch.svg" alt="Twitch"></a>
+                                <a href="#" class="social-icon"><img src="assets/images/logo/twitter.svg" alt="Twitter"></a>
+                                <a href="#" class="social-icon"><img src="assets/images/logo/instagram.svg" alt="Instagram"></a>
+                            </div>
+                        </div>
+                        <h3 class="player-nick">Shrimzy</h3>
+                        <p class="player-role">Снайпер</p>
+                    </div>
+                    <!-- Player Card 2 -->
+                    <div class="player-card">
+                        <div class="player-img">
+                            <img src="assets/images/roster/player2.jpg" alt="Player 2" class="player-img-bw">
+                            <div class="player-social">
+                                <a href="#" class="social-icon"><img src="assets/images/logo/twitch.svg" alt="Twitch"></a>
+                                <a href="#" class="social-icon"><img src="assets/images/logo/twitter.svg" alt="Twitter"></a>
+                                <a href="#" class="social-icon"><img src="assets/images/logo/instagram.svg" alt="Instagram"></a>
+                            </div>
+                        </div>
+                        <h3 class="player-nick">TglTn</h3>
+                        <p class="player-role">Стрелок</p>
+                    </div>
+                    <!-- Player Card 3 -->
+                    <div class="player-card">
+                        <div class="player-img">
+                            <img src="assets/images/roster/player3.jpg" alt="Player 3" class="player-img-bw">
+                            <div class="player-social">
+                                <a href="#" class="social-icon"><img src="assets/images/logo/twitch.svg" alt="Twitch"></a>
+                                <a href="#" class="social-icon"><img src="assets/images/logo/twitter.svg" alt="Twitter"></a>
+                                <a href="#" class="social-icon"><img src="assets/images/logo/instagram.svg" alt="Instagram"></a>
+                            </div>
+                        </div>
+                        <h3 class="player-nick">M1me</h3>
+                        <p class="player-role">Стрелок</p>
+                    </div>
+                    <!-- Player Card 4 -->
+                    <div class="player-card">
+                        <div class="player-img">
+                            <img src="assets/images/roster/player4.jpg" alt="Player 4" class="player-img-bw">
+                            <div class="player-social">
+                                <a href="#" class="social-icon"><img src="assets/images/logo/twitch.svg" alt="Twitch"></a>
+                                <a href="#" class="social-icon"><img src="assets/images/logo/twitter.svg" alt="Twitter"></a>
+                                <a href="#" class="social-icon"><img src="assets/images/logo/instagram.svg" alt="Instagram"></a>
+                            </div>
+                        </div>
+                        <h3 class="player-nick">Kickstart</h3>
+                        <p class="player-role">Капитан</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Matches Section -->
+        <section id="matches" class="section matches">
+            <div class="container">
+                <h2 class="section-title">РАСПИСАНИЕ</h2>
+                <div class="matches-list">
+                    <!-- Live Match -->
+                    <div class="match-item live">
+                        <div class="match-info">
+                            <span class="match-date">16.02.2024</span>
+                            <span class="match-live">
+                                <span class="live-dot"></span>
+                                LIVE
+                            </span>
+                        </div>
+                        <div class="match-details">
+                            <span class="match-opponent">VS Faze Clan</span>
+                            <span class="match-tournament">PGS 2024</span>
+                        </div>
+                        <div class="match-result">2 : 1</div>
+                    </div>
+                    <!-- Match Item 2 -->
+                    <div class="match-item">
+                        <div class="match-info">
+                            <span class="match-date">15.02.2024</span>
+                        </div>
+                        <div class="match-details">
+                            <span class="match-opponent">VS 4AM</span>
+                            <span class="match-tournament">PGS 2024</span>
+                        </div>
+                        <div class="match-result">0 : 2</div>
+                    </div>
+                    <!-- Match Item 3 -->
+                    <div class="match-item upcoming">
+                        <div class="match-info">
+                            <span class="match-date">18.02.2024</span>
+                        </div>
+                        <div class="match-details">
+                            <span class="match-opponent">VS Twisted Minds</span>
+                            <span class="match-tournament">PGS 2024</span>
+                        </div>
+                        <div class="match-result">19:00</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Media Section -->
+        <section id="media" class="section media">
+            <div class="container">
+                <h2 class="section-title">МЕДИА</h2>
+                <div class="media-grid">
+                    <div class="media-item">
+                        <img src="assets/images/media/thumb1.jpg" alt="Media 1" class="media-thumb">
+                        <div class="media-play" onclick="openVideo('VIDEO_ID_1')">▶</div>
+                    </div>
+                    <div class="media-item">
+                        <img src="assets/images/media/thumb2.jpg" alt="Media 2" class="media-thumb">
+                        <div class="media-play" onclick="openVideo('VIDEO_ID_2')">▶</div>
+                    </div>
+                    <div class="media-item">
+                        <img src="assets/images/media/thumb3.jpg" alt="Media 3" class="media-thumb">
+                        <div class="media-play" onclick="openVideo('VIDEO_ID_3')">▶</div>
+                    </div>
+                    <div class="media-item">
+                        <img src="assets/images/media/thumb4.jpg" alt="Media 4" class="media-thumb">
+                        <div class="media-play" onclick="openVideo('VIDEO_ID_4')">▶</div>
+                    </div>
+                </div>
+                <div class="media-button">
+                    <a href="#" class="btn btn-primary">Смотреть все на YouTube</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Section -->
+        <section id="partners" class="section partners">
+            <div class="container">
+                <h2 class="section-title">ПАРТНЕРЫ</h2>
+                <div class="partners-grid">
+                    <div class="partner-item">
+                        <img src="assets/images/logo/partner1.svg" alt="Partner 1" class="partner-logo bw">
+                        <img src="assets/images/logo/partner1-color.svg" alt="Partner 1" class="partner-logo color">
+                    </div>
+                    <div class="partner-item">
+                        <img src="assets/images/logo/partner2.svg" alt="Partner 2" class="partner-logo bw">
+                        <img src="assets/images/logo/partner2-color.svg" alt="Partner 2" class="partner-logo color">
+                    </div>
+                    <div class="partner-item">
+                        <img src="assets/images/logo/partner3.svg" alt="Partner 3" class="partner-logo bw">
+                        <img src="assets/images/logo/partner3-color.svg" alt="Partner 3" class="partner-logo color">
+                    </div>
+                    <div class="partner-item">
+                        <img src="assets/images/logo/partner4.svg" alt="Partner 4" class="partner-logo bw">
+                        <img src="assets/images/logo/partner4-color.svg" alt="Partner 4" class="partner-logo color">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <img src="assets/images/logo/logo.svg" alt="Team Soniqs">
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-link"><img src="assets/images/logo/twitter.svg" alt="Twitter"></a>
+                <a href="#" class="social-link"><img src="assets/images/logo/instagram.svg" alt="Instagram"></a>
+                <a href="#" class="social-link"><img src="assets/images/logo/twitch.svg" alt="Twitch"></a>
+                <a href="#" class="social-link"><img src="assets/images/logo/youtube.svg" alt="YouTube"></a>
+                <a href="#" class="social-link"><img src="assets/images/logo/discord.svg" alt="Discord"></a>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2024 Team Soniqs. All rights reserved.</p>
+                <a href="#" class="privacy-link">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for YouTube video -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe id="youtubePlayer" width="100%" height="500" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
