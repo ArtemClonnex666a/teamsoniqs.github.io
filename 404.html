@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Soniqs - 404</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        .error-page {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('assets/images/bg/error-bg.jpg') center/cover no-repeat;
+            position: relative;
+        }
+        
+        .error-content {
+            max-width: 600px;
+            padding: 2rem;
+        }
+        
+        .error-title {
+            font-size: 8rem;
+            color: var(--red);
+            line-height: 1;
+            margin-bottom: 1rem;
+            animation: glitch 1s infinite;
+        }
+        
+        .error-text {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        
+        .error-description {
+            color: var(--light-gray);
+            margin-bottom: 3rem;
+            font-size: 1.2rem;
+        }
+        
+        @keyframes glitch {
+            0%, 100% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(-2px, -2px); }
+            60% { transform: translate(2px, 2px); }
+            80% { transform: translate(2px, -2px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="error-page">
+        <div class="error-content">
+            <h1 class="error-title">404</h1>
+            <p class="error-text">You've been eliminated</p>
+            <p class="error-description">Страница не найдена или была уничтожена</p>
+            <a href="/" class="btn btn-primary">Вернуться на главную</a>
+        </div>
+    </div>
+</body>
+</html>
